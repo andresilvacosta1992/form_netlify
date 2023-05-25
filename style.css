@@ -1,0 +1,24 @@
+
+img {
+    max-width: 100% !important;
+}
+	
+.nf-form-cont {
+    max-width: 350px !important;
+}
+	
+.form-group {
+    margin-bottom: 20px;
+}
+form {
+    max-width: 350px !important;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+button.form-control.form-control-lg {
+    background: #dc3545;
+    color: white;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento de Formulário</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<link rel="icon" type="image/png" href="http://localhost/23/05/foscoxtreme_marketplace_form/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span>desenvolvimento de formulário para netlify</span>
+<h3>Entre em Contato</h3>
+<form name="meu-formulario" method="POST" data-netlify="true">
+    <div class="form-row">
+        <div class="form-group ">
+            <label>Nome:</label>
+            <input type="text" class="form-control form-control-lg" name="nome" placeholder="Nome">
+        </div>
+        <div class="form-group">
+            <label for="inputEmail4">Email:</label>
+            <input type="email" class="form-control form-control-lg" name="email" placeholder="E-mail">
+        </div>
+        <div class="form-group">
+            <label>WhatsApp:</label>
+            <input type="phone" class="form-control form-control-lg" name="phone" placeholder="WhatsApp">
+        </div>
+        <div class="form-group">
+            <label>Mensagem:</label>
+            <textarea class="form-control form-control-lg" rows="3" name="mensagem" placeholder="Digite sua ensagem"></textarea>
+            </div>
+        <button class="form-control form-control-lg" type="submit">Enviar</button>
+    </div>
+</form>
+
+</body>
+</html>
