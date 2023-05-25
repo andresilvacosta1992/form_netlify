@@ -11,7 +11,7 @@
 
 </head> 
 <body>
-    <span >desenvolvimento de formulário para netlify - <strong class="versão">v3</strong></span><br>
+    <span >desenvolvimento de formulário para netlify - <strong class="versão">v3</strong>.</span><br>
     
 <h3>Entre em Contato</h3>
 <form name="meu-formulario" method="POST" data-netlify="true">
@@ -37,5 +37,21 @@
     </div>
 </form>
 <script src="script.js"></script>
+
+
+<form action="seu-script-de-processamento.php" method="POST" netlify>
+    <!-- Outros campos do formulário aqui -->
+    <input type="hidden" name="url_atual" id="url_atual">
+    <button type="submit">Enviar</button>
+  </form>
+  
+  <script>
+    // Obtém a URL atual
+    var urlAtual = window.location.href;
+  
+    // Preenche o campo oculto com a URL atual
+    document.getElementById('url_atual').value = urlAtual;
+  </script>
+  
 </body>
 </html>
