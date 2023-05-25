@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Substituir Elemento</title>
+</head>
+<body>
+  <input id="inputAntigo" type="text">
+  
+  <script>
+    var inputAntigo = document.getElementById('inputAntigo');
+    
+    // Cria um novo elemento para substituir o input antigo
+    var novoElemento = document.createElement('textarea');
+    novoElemento.id = 'novoInput';
+    
+    // Substitui o input antigo pelo novo elemento
+    inputAntigo.replaceWith(novoElemento);
+  </script>
+</body>
+</html>
